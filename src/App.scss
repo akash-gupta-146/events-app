@@ -1,0 +1,30 @@
+$primary : #626262;
+$secondary: #fff;
+.grid{
+  display:flex;
+}
+.grid-col{
+  flex-direction: column;
+}
+.grid-wrap{
+  flex-wrap: wrap;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.align-center{
+  align-items:center
+}
+a{
+  text-decoration: none;;
+}
+.small-cont{
+  max-width: 700px;
+  margin:auto;
+}

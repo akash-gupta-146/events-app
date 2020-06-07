@@ -1,0 +1,38 @@
+@import './../App.scss';
+
+.login{
+    display: inline-block;
+    background: $primary;
+    color:$secondary;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    top: 30%;
+    min-width:300px;
+    h3{
+        margin-top:0px;
+    }
+    input{
+        padding: 5px 10px;
+        display: block;
+        margin-bottom:10px;
+        width: 100%;
+    }
+}
+
+.btn{
+    border:2px solid $primary;
+    background-color:$secondary;
+    color:$primary;
+    border-radius:5px;
+    padding:10px 15px;
+    cursor:pointer;
+    font-weight: bold;;
+}
+
+.note{
+    margin: 0 0 20px 0;
+    font-size: 13px;
+    font-weight: bold;
+}
